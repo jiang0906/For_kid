@@ -352,3 +352,137 @@ class Name_G3:
     def draw(self, win):
         win.blit(self.image, self.pos)
 
+
+class Name_G4:
+    def __init__(self):
+        self.image = name_G4
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_G5:
+    def __init__(self):
+        self.image = name_G5
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_G6:
+    def __init__(self):
+        self.image = name_G6
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H1:
+    def __init__(self):
+        self.image = name_H1
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H2:
+    def __init__(self):
+        self.image = name_H2
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H3:
+    def __init__(self):
+        self.image = name_H3
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H4:
+    def __init__(self):
+        self.image = name_H4
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H5:
+    def __init__(self):
+        self.image = name_H5
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_H6:
+    def __init__(self):
+        self.image = name_H6
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I1:
+    def __init__(self):
+        self.image = name_I1
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I2:
+    def __init__(self):
+        self.image = name_I2
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I3:
+    def __init__(self):
+        self.image = name_I3
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I4:
+    def __init__(self):
+        self.image = name_I4
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I5:
+    def __init__(self):
+        self.image = name_I5
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+
+class Name_I6:
+    def __init__(self):
+        self.image = name_I6
+        self.pos = (400, 50)
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)

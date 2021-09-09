@@ -46,13 +46,30 @@ class PartGroup:
         self.part_G1 = Part_G1()
         self.part_G2 = Part_G2()
         self.part_G3 = Part_G3()
+        self.part_G4 = Part_G4()
+        self.part_G5 = Part_G5()
+        self.part_G6 = Part_G6()
+        self.part_H1 = Part_H1()
+        self.part_H2 = Part_H2()
+        self.part_H3 = Part_H3()
+        self.part_H4 = Part_H4()
+        self.part_H5 = Part_H5()
+        self.part_H6 = Part_H6()
+        self.part_I1 = Part_I1()
+        self.part_I2 = Part_I2()
+        self.part_I3 = Part_I3()
+        self.part_I4 = Part_I4()
+        self.part_I5 = Part_I5()
+        self.part_I6 = Part_I6()
         self.pictures = [self.part_A1, self.part_A2, self.part_A3, self.part_A4, self.part_A5, self.part_A6,
                          self.part_B1, self.part_B2, self.part_B3, self.part_B4, self.part_B5, self.part_B6,
                          self.part_C1, self.part_C2, self.part_C3, self.part_C4, self.part_C5, self.part_C6,
                          self.part_D1, self.part_D2, self.part_D3, self.part_D4, self.part_D5, self.part_D6,
                          self.part_E1, self.part_E2, self.part_E3, self.part_E4, self.part_E5, self.part_E6,
                          self.part_F1, self.part_F2, self.part_F3, self.part_F4, self.part_F5, self.part_F6,
-                         self.part_G1, self.part_G2, self.part_G3]
+                         self.part_G1, self.part_G2, self.part_G3, self.part_G4, self.part_G5, self.part_G6,
+                         self.part_H1, self.part_H2, self.part_H3, self.part_H4, self.part_H5, self.part_H6,
+                         self.part_I1, self.part_I2, self.part_I3, self.part_I4, self.part_I5, self.part_I6]
         self.selected_part = None
 
     def draw(self, win):
@@ -174,6 +191,51 @@ class PartGroup:
                 self.name.draw(win)
             elif self.selected_part == "G3":
                 self.name = Name_G3()
+                self.name.draw(win)
+            elif self.selected_part == "G4":
+                self.name = Name_G4()
+                self.name.draw(win)
+            elif self.selected_part == "G5":
+                self.name = Name_G5()
+                self.name.draw(win)
+            elif self.selected_part == "G6":
+                self.name = Name_G6()
+                self.name.draw(win)
+            elif self.selected_part == "H1":
+                self.name = Name_H1()
+                self.name.draw(win)
+            elif self.selected_part == "H2":
+                self.name = Name_H2()
+                self.name.draw(win)
+            elif self.selected_part == "H3":
+                self.name = Name_H3()
+                self.name.draw(win)
+            elif self.selected_part == "H4":
+                self.name = Name_H4()
+                self.name.draw(win)
+            elif self.selected_part == "H5":
+                self.name = Name_H5()
+                self.name.draw(win)
+            elif self.selected_part == "H6":
+                self.name = Name_H6()
+                self.name.draw(win)
+            elif self.selected_part == "I1":
+                self.name = Name_I1()
+                self.name.draw(win)
+            elif self.selected_part == "I2":
+                self.name = Name_I2()
+                self.name.draw(win)
+            elif self.selected_part == "I3":
+                self.name = Name_I3()
+                self.name.draw(win)
+            elif self.selected_part == "I4":
+                self.name = Name_I4()
+                self.name.draw(win)
+            elif self.selected_part == "I5":
+                self.name = Name_I5()
+                self.name.draw(win)
+            elif self.selected_part == "I6":
+                self.name = Name_I6()
                 self.name.draw(win)
             else:
                 self.name = None
@@ -334,6 +396,66 @@ class PartGroup:
         elif self.part_G3.clicked(x, y):
             self.selected_part = "G3"
             self.pictures.remove(self.part_G3)
+            return
+        elif self.part_G4.clicked(x, y):
+            self.selected_part = "G4"
+            self.pictures.remove(self.part_G4)
+            return
+        elif self.part_G5.clicked(x, y):
+            self.selected_part = "G5"
+            self.pictures.remove(self.part_G5)
+            return
+        elif self.part_G6.clicked(x, y):
+            self.selected_part = "G6"
+            self.pictures.remove(self.part_G6)
+            return
+        elif self.part_H1.clicked(x, y):
+            self.selected_part = "H1"
+            self.pictures.remove(self.part_H1)
+            return
+        elif self.part_H2.clicked(x, y):
+            self.selected_part = "H2"
+            self.pictures.remove(self.part_H2)
+            return
+        elif self.part_H3.clicked(x, y):
+            self.selected_part = "H3"
+            self.pictures.remove(self.part_H3)
+            return
+        elif self.part_H4.clicked(x, y):
+            self.selected_part = "H4"
+            self.pictures.remove(self.part_H4)
+            return
+        elif self.part_H5.clicked(x, y):
+            self.selected_part = "H5"
+            self.pictures.remove(self.part_H5)
+            return
+        elif self.part_H6.clicked(x, y):
+            self.selected_part = "H6"
+            self.pictures.remove(self.part_H6)
+            return
+        elif self.part_I1.clicked(x, y):
+            self.selected_part = "I1"
+            self.pictures.remove(self.part_I1)
+            return
+        elif self.part_I2.clicked(x, y):
+            self.selected_part = "I2"
+            self.pictures.remove(self.part_I2)
+            return
+        elif self.part_I3.clicked(x, y):
+            self.selected_part = "I3"
+            self.pictures.remove(self.part_I3)
+            return
+        elif self.part_I4.clicked(x, y):
+            self.selected_part = "I4"
+            self.pictures.remove(self.part_I4)
+            return
+        elif self.part_I5.clicked(x, y):
+            self.selected_part = "I5"
+            self.pictures.remove(self.part_I5)
+            return
+        elif self.part_I6.clicked(x, y):
+            self.selected_part = "I6"
+            self.pictures.remove(self.part_I6)
             return
         else:
             self.selected_part = None

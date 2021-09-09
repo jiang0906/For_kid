@@ -703,3 +703,273 @@ class Part_G3:
         if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
             return True
         return False
+
+
+class Part_G4:
+    def __init__(self):
+        self.image = part_G4
+        self.pos = (1050, 560)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_G5:
+    def __init__(self):
+        self.image = part_G5
+        self.pos = (1050, 680)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_G6:
+    def __init__(self):
+        self.image = part_G6
+        self.pos = (1050, 800)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H1:
+    def __init__(self):
+        self.image = part_H1
+        self.pos = (1180, 170)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H2:
+    def __init__(self):
+        self.image = part_H2
+        self.pos = (1180, 300)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H3:
+    def __init__(self):
+        self.image = part_H3
+        self.pos = (1180, 420)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H4:
+    def __init__(self):
+        self.image = part_H4
+        self.pos = (1180, 550)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H5:
+    def __init__(self):
+        self.image = part_H5
+        self.pos = (1180, 680)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_H6:
+    def __init__(self):
+        self.image = part_H6
+        self.pos = (1180, 810)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I1:
+    def __init__(self):
+        self.image = part_I1
+        self.pos = (1300, 170)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I2:
+    def __init__(self):
+        self.image = part_I2
+        self.pos = (1300, 300)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I3:
+    def __init__(self):
+        self.image = part_I3
+        self.pos = (1300, 420)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I4:
+    def __init__(self):
+        self.image = part_I4
+        self.pos = (1300, 550)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I5:
+    def __init__(self):
+        self.image = part_I5
+        self.pos = (1300, 680)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
+
+
+class Part_I6:
+    def __init__(self):
+        self.image = part_I6
+        self.pos = (1300, 810)
+        self.x = self.pos[0]
+        self.y = self.pos[1]
+        self.width = self.image.get_width()
+        self.height = self.image.get_height()
+
+    def draw(self, win):
+        win.blit(self.image, self.pos)
+
+    def clicked(self, x, y) -> bool:
+        if self.x <= x <= self.x + self.width and self.y <= y <= self.y + self.height:
+            return True
+        return False
